@@ -8,4 +8,7 @@ project (P8MVM)
 #add_subdirectory (src/initiation)
 #add_subdirectory (src/reaction)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(SOURCE_FILES ./src/reaction/reaction.cpp)
+add_executable(Polymerization ${SOURCE_FILES})
 

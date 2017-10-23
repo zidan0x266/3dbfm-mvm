@@ -37,7 +37,54 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Polymerization">
+				<Option output="/Volumes/INING/p8mvm/cmake-build-debug/Polymerization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/INING/p8mvm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Polymerization"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Polymerization/fast">
+				<Option output="/Volumes/INING/p8mvm/cmake-build-debug/Polymerization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/INING/p8mvm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Polymerization/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/INING/p8mvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Volumes/INING/p8mvm/src/reaction/reaction.cpp">
+			<Option target="Polymerization"/>
+		</Unit>
 		<Unit filename="/Volumes/INING/p8mvm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -110,6 +110,46 @@ depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named Polymerization
+
+# Build rule for target.
+Polymerization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Polymerization
+.PHONY : Polymerization
+
+# fast build rule for target.
+Polymerization/fast:
+	$(MAKE) -f CMakeFiles/Polymerization.dir/build.make CMakeFiles/Polymerization.dir/build
+.PHONY : Polymerization/fast
+
+src/reaction/reaction.o: src/reaction/reaction.cpp.o
+
+.PHONY : src/reaction/reaction.o
+
+# target to build an object file
+src/reaction/reaction.cpp.o:
+	$(MAKE) -f CMakeFiles/Polymerization.dir/build.make CMakeFiles/Polymerization.dir/src/reaction/reaction.cpp.o
+.PHONY : src/reaction/reaction.cpp.o
+
+src/reaction/reaction.i: src/reaction/reaction.cpp.i
+
+.PHONY : src/reaction/reaction.i
+
+# target to preprocess a source file
+src/reaction/reaction.cpp.i:
+	$(MAKE) -f CMakeFiles/Polymerization.dir/build.make CMakeFiles/Polymerization.dir/src/reaction/reaction.cpp.i
+.PHONY : src/reaction/reaction.cpp.i
+
+src/reaction/reaction.s: src/reaction/reaction.cpp.s
+
+.PHONY : src/reaction/reaction.s
+
+# target to generate assembly for a file
+src/reaction/reaction.cpp.s:
+	$(MAKE) -f CMakeFiles/Polymerization.dir/build.make CMakeFiles/Polymerization.dir/src/reaction/reaction.cpp.s
+.PHONY : src/reaction/reaction.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Polymerization"
+	@echo "... src/reaction/reaction.o"
+	@echo "... src/reaction/reaction.i"
+	@echo "... src/reaction/reaction.s"
 .PHONY : help
 
 
