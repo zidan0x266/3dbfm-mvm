@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2016 Zidan Zhang <zidan.zhang@kuleuven.be>
+Copyright (C) 2017 Zidan Zhang <zidan.zhang@kuleuven.be>
                    Jing Lv <lvjingmaoyi@tju.edu.cn>
 
 This file is distributed under free software licence:
