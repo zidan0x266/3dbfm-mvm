@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Software/Clion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /Software/Clion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/INING/p8mvm
+CMAKE_SOURCE_DIR = /data/p8mvm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/INING/p8mvm/cmake-build-debug
+CMAKE_BINARY_DIR = /data/p8mvm/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Polymerization.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Volumes/INING/p8mvm/cmake-build-debug
 CMakeFiles/Polymerization.dir/all:
 	$(MAKE) -f CMakeFiles/Polymerization.dir/build.make CMakeFiles/Polymerization.dir/depend
 	$(MAKE) -f CMakeFiles/Polymerization.dir/build.make CMakeFiles/Polymerization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/INING/p8mvm/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Polymerization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/p8mvm/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Polymerization"
 .PHONY : CMakeFiles/Polymerization.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/Polymerization.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Polymerization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/INING/p8mvm/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/p8mvm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Polymerization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/INING/p8mvm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/p8mvm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Polymerization.dir/rule
 
 # Convenience name for target.
