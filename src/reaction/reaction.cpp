@@ -1,6 +1,6 @@
 /*
 Copyright (C) 2017 Zidan Zhang <zidan.zhang@kuleuven.be>
-                   Jing Lv <lvjingmaoyi@tju.edu.cn>
+                   Jing Lyu <lvjingmaoyi@tju.edu.cn>
 
 This file is distributed under free software licence:
 you can redistribute it and/or modify it under the terms of the
